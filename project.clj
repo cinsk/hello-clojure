@@ -7,5 +7,6 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/tools.cli "0.3.5"]
                  ]
-  :main hello-clojure.core)
+  :main hello-clojure.core
+  :aot [hello-clojure.core])
 
