@@ -3,7 +3,9 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.7.0"]]
-  :main hello-clojure.core
-  :profiles {:dev {:plugins [[cider/cider-nrepl "0.11.0-SNAPSHOT"]]}})
+  ;; :repositories [["qt" "http://uqbar-wiki.org/mvn/releases/"]]
+  :dependencies [[org.clojure/clojure "1.9.0"]
+                 [org.clojure/tools.cli "0.3.5"]
+                 ]
+  :main hello-clojure.core)
 
